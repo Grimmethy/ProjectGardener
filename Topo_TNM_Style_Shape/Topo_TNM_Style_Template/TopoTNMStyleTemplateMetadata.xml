@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey</origin>
+        <pubdate>2015</pubdate>
+        <title>Topo TNM Style Template</title>
+        <geoform>Cartographic Style Template</geoform>
+        <pubinfo>
+          <pubplace>Rolla, MO and Denver, CO</pubplace>
+          <publish>USGS - National Geospatial Technical Operations Center (NGTOC)</publish>
+        </pubinfo>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The Topo TNM Style Template is provided by the U.S. Geological Survey (USGS) National Geospatial Technical Operations Center (NGTOC). It has been developed according to the 24,000-scale, 7.5-minute layout and cartographic design of published US Topo Maps and is intended for use in any geographic location where data is available for download from The National Map (TNM). The template provides base topographic map symbology, links to Web Map Services, labeling rules, grids, standard map layout, and marginalia information that can be used for advanced analysis and/or for developing customized maps. The template is formatted as an Esri ArcGIS map document (MXD) and labeling rules are built using the Esri Maplex labeling engine. Ancillary data for customizing the template is provided along with the template in an Esri file geodatabase. Symbolized layers within the template can be linked to data downloaded from TNM and include layers from TNM vector data themes of transportation, hydrography, elevation contours, geographic names, boundaries, structures, and woodland tint. Web Map Service layers in the template include orthoimagery and shaded relief services produced by the USGS, as well as a National Wetlands Inventory (NWI) Web Map Service produced by the U.S. Fish and Wildlife Service. The ancillary file geodatabase contains a National Geospatial-Intelligence Agency (NGA) Military Grid Reference System (MGRS) feature class and a data table created by NGTOC containing 7.5-minute map cell names, UTM Zones, and other information for use in customizing the template to a specific 7.5-minute map.</abstract>
+      <purpose>This template is intended to depict geographic features on the surface of the earth. It has been developed by the USGS National Geospatial Technical Operations Center (NGTOC) for GIS and cartographic experts who have a requirement to analyze geospatial data and to develop custom maps based upon a template in a GIS-ready format that conforms to US Topo Map specifications. The intended use of the template is different than that for the published US Topo Maps. The template is intended for users to create specialized, customized maps. It is not intended to precisely duplicate the published maps.</purpose>
+      <supplinf>7.5-minute Map Layout</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>2019</begdate>
+          <enddate>2019</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-180</westbc>
+        <eastbc>180</eastbc>
+        <northbc>90</northbc>
+        <southbc>-90</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+        <themekey>EarthCover</themekey>
+        <themekey>Imagery and Base Maps</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>topographic</themekey>
+        <themekey>transportation</themekey>
+        <themekey>structures</themekey>
+        <themekey>geographic names</themekey>
+        <themekey>hydrography</themekey>
+        <themekey>boundary</themekey>
+        <themekey>Public Land Survey System</themekey>
+        <themekey>woodland</themekey>
+        <themekey>orthoimage</themekey>
+        <themekey>hill shade</themekey>
+        <themekey>contour</themekey>
+        <themekey>National Wetlands Inventory</themekey>
+        <themekey>U.S. National Grid</themekey>
+      </theme>
+      <place>
+        <placekt>Geographic Names Information System</placekt>
+        <placekey>US</placekey>
+        <placekey>United States</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>This product may be freely copied, redistributed, and printed. Content is derived from public domain data with no reuse constraints. See the relevant data source sections (srcinfo tag) in this file for additional information on the Web Map Service layers and ancillary data contained in the file geodatabase. Users should be aware that temporal changes may have occurred since data contained in, or linked to, the template layers were collected and some data may no longer represent actual surface conditions. Users should not use these data for critical applications without a full awareness of their limitations. Acknowledgment of the U.S. Geological Survey, U.S. Fish and Wildlife Service, National Geospatial-Intelligence Agency, and other government sources is appreciated for products derived from the template and associated data and services.</useconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Web Map Services included in the template are derived from USGS national geospatial databases, USFWS National Wetland Inventory database, and other government sources. A file geodatabase delivered with the template includes a Military Grid Reference System (MGRS) feature class available from the National Geospatial-Intelligence Agency.</attraccr>
+    </attracc>
+    <logic>This product includes an Esri ArcGIS formatted ArcMap document (MXD), an Esri file geodatabase, and instructions for the template. Esri, ArcGIS, ArcMap, and Maplex are trademarks, service marks, or registered trademarks of Esri in the United States, the European Community, or certain other jurisdictions.</logic>
+    <complete>The template is designed to be used at a 1:24,000 scale. A scale range of 1:18,000 to 1:36,000 scales is possible, although the user should be aware that Maplex labeling results may vary. The template is intended for use with the Topo Map Vector Data products, which is available for download from TNM (http://viewer.nationalmap.gov/basic/).</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Not applicable</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Not applicable</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>The USGS NAIP Imagery service from The National Map (TNM) consists of high resolution images that combine the visual attributes of an aerial photograph with the spatial accuracy and reliability of a map. Resolution of National Agriculture Imagery Program (NAIP) data is 1 meter, which means that every pixel in the digital orthoimage covers a one meter square of the earth’s surface. Many states contribute orthoimagery to The National Map, and USGS relies on a partnership with the U.S. Department of Agriculture’s Farm Service Agency for NAIP data. The USGS NAIP Imagery service is a mosaic of 1 meter resolution natural color and color infrared aerial imagery, containing NAIP and other imagery sources to complete the mosaic. The National Map viewer allows free downloads of public domain, 1-meter resolution compressed orthoimagery in JPEG 2000 (.jp2) format for the conterminous United States, with many urban areas and other locations at 1-foot (or better) resolution, also in JPEG 2000 (.jp2) format. For additional information on orthoimagery, go to https://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-programs/naip-imagery/.</origin>
+            <pubdate>2017</pubdate>
+            <title>USGS NAIP Plus Base Map</title>
+            <geoform>Raster digital data or Digital Orthorectified Image or NAIP Digital Ortho Photo Image or Raster digital data or Digital Orthorectified Image or Orthorectified Map Service</geoform>
+            <othercit>The orthoimagery in this map service is public domain with no reuse constraints.</othercit>
+            <onlink>http://www.fsa.usda.gov/</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>digital data</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20150101</begdate>
+              <enddate>20170101</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>creation date</srccurr>
+        </srctime>
+        <srccitea>Imagery</srccitea>
+        <srccontr>Web Map Service</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>USGS Imagery Only is a tile cache base map of orthoimagery in The National Map. Orthoimagery data typically are high resolution aerial images that combine the visual attributes of an aerial photograph with the spatial accuracy and reliability of a planimetric map. USGS digital orthoimage resolution may vary from 6 inches to 1 meter. In the former resolution, every pixel in an orthoimage covers a six inch square of the earth's surface, while in the latter resolution, one meter square is represented by each pixel. Blue Marble: Next Generation and Landsat imagery data sources are displayed at small to medium scales, however, the majority of the imagery service source is from the National Agriculture Imagery Program (NAIP) for the conterminous United States. NAIP is 1-meter pixel resolution with "leaf-on." Collection of NAIP is administered by the U.S. Department of Agriculture's Farm Service Agency (FSA). In areas where NAIP data is not available, other imagery may be acquired through partnerships by the USGS. The National Geospatial Program is working on acquisition of high resolution imagery for Alaska and Hawaii. Most of the new Alaska orthoimagery data will not be available in this service due to license restrictions. For scales below 1:18,000, use the dynamic USGS Imagery Only Large service, http://services.nationalmap.gov/arcgis/rest/services/USGSImageryOnlyLarge/MapServer.</origin>
+            <pubdate>2017</pubdate>
+            <title>USGS Imagery Only</title>
+            <geoform>Raster digital data or Digital Orthorectified Image or NAIP Digital Ortho Photo Image or Raster digital data or Digital Orthorectified Image or Orthorectified Map Service</geoform>
+            <othercit>The orthoimagery in this map service is public domain with no reuse constraints.</othercit>
+            <onlink>http://www.fsa.usda.gov/</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>digital data</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20150101</begdate>
+              <enddate>20170101</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>creation date</srccurr>
+        </srctime>
+        <srccitea>Imagery</srccitea>
+        <srccontr>Web Map Service</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>The USGS Hill Shade base map from The National Map was created from the 3D Elevation Program, formerly called the National Elevation Dataset, a seamless dataset of best available raster elevation data for the conterminous United States, Alaska, Hawaii, and Territorial Islands. Derived using a hill-shade technique, this base map represents a continental view showing shaded relief from USGS 3DEP layers at resolutions of 1/3-, 1-, and 2-arc-second (in Alaska only). Shaded relief (or hill shade) function parameters are: point illumination is from the NW (azimuth = 315 degrees), and altitude of the light source is 45 degrees. Color characteristics are the result of applying a color ramp in which RGB values range from white (RGB: 255, 255, 255) to brown (RGB: 166, 150, 109). The color ramp was applied with a Stretch Type of None. Contrast and Brightness values range from 4-14%, depending on scale, for cartographic purposes. For additional information on 3DEP, go to http://ned.usgs.gov. The web map service is setup for viewing at all scales, although resolution does not realistically support viewing at scales larger than 1:18,000.</origin>
+            <pubdate>2018</pubdate>
+            <title>USGS Shaded Relief Only</title>
+            <geoform>Raster digital data or Digital Hill Shade Image or Shaded Relief Map Service</geoform>
+            <othercit>The hill shade in this map service is public domain with no reuse constraints.</othercit>
+            <onlink>http://ned.usgs.gov</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>digital data</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20180101</begdate>
+              <enddate>20180101</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>creation date</srccurr>
+        </srctime>
+        <srccitea>Hill Shade</srccitea>
+        <srccontr>Web Map Service</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Fish and Wildlife Service</origin>
+            <pubdate>2018</pubdate>
+            <title>Wetlands Topo Service</title>
+            <geoform>digital data</geoform>
+            <othercit>This web map service cartographically renders the U.S. Fish and Wildlife Service wetlands and deepwater habitat data for use as a base layer wetland map information for general use products greater or equal to 1:100,000 scale.  Three main categories were identified (Emergent Wetlands, Forest/Shrub Wetlands and Inland Waters) to render these features to resemble the USGS topographic maps.  The emergent wetlands are symbolized with blue wetland map symbology and white polygon fill, without a polygon outline.  The emergent wetlands depicted do not include lakes, rivers, open water ponds, deepwater marine and estuarine features or non-vegetated, farmed, intermittent and temporarily flooded wetlands. The forested and scrub/shrub wetlands are symbolized with blue wetland map symbology and green polygon fill, without a polygon outline.  The forested and scrub/shrub wetlands depicted do not include lakes, rivers, open water ponds, deepwater marine and estuarine features or non-vegetated, farmed, intermittent and temporarily flooded wetlands.  The inland waters include lakes, rivers, open water ponds, open water estuarine features and are symbolized with a light blue polygon fill, without a polygon outline. The water features depicted do not include vegetated or non-vegetated wetlands. This service also includes a wetlands symbol service that cartographically renders all vegetated wetlands with blue wetland map symbology with no polygon fill or outline. This service was developed to provide base map wetland information as an overlay to imagery or other complex base map information. The wetlands depicted do not include lakes, rivers, open water ponds, deepwater marine and estuarine features or non-vegetated, farmed, intermittent and temporarily flooded wetlands.</othercit>
+            <onlink>http://www.fws.gov/wetlands, https://fwspublicservices.wim.usgs.gov/server/rest/services/Wetlands/MapServer</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>100,000 and larger</srcscale>
+        <typesrc>digital data</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20181015</begdate>
+              <enddate>20181015</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>creation date</srccurr>
+        </srctime>
+        <srccitea>U.S. Fish and Wildlife Service Wetlands</srccitea>
+        <srccontr>Web Map Service</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>National Geospatial-Intelligence Agency (NGA)</origin>
+            <pubdate>2015</pubdate>
+            <title>World Wide 100,000-scale MGRS Layer</title>
+            <othercit>The Military Grid Reference System (MGRS) Region feature class was generated from a shapefile available from the National Geospatial-Intelligence Agency (NGA) that allows usres to label each 100,000m grid square with its two-letter designation or its UTM zone. It is available for download at http://earth-info.nga.mil/GandG/coordsys/gislayers/gislayers.html.</othercit>
+            <onlink>http://earth-info.nga.mil/GandG/coordsys/gislayers/gislayers.html</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>vector data</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>2015</begdate>
+              <enddate>2015</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>download date</srccurr>
+        </srctime>
+        <srccitea>National Grid Reference System</srccitea>
+        <srccontr>Military Grid Reference System</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>2019</pubdate>
+            <title>Map Details</title>
+            <othercit>The Map Details table was created from the USGS 7.5-minute Geographic Names Cells database. It includes the Cell Name, the Cell Identifier, the State containing the cell, and the appropriate UTM Zone, Map Rotation Angle, Data Frame Width (in inches) and Data Frame Height (in inches) for customizing the map layout to the desired 7.5-minute cell location. The table was created for delivery and use with the Topo TNM Style Template.</othercit>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>table data</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>2019</begdate>
+              <enddate>2019</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>creation date</srccurr>
+        </srctime>
+        <srccitea>Map Details Table</srccitea>
+        <srccontr>Table Data</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>The template and file geodatabase for this product are created as follows. The template is formatted as an Esri ArcMap document (MXD) that incorporates labeling rules generated via the Esri Maplex labeling engine. Esri, ArcGIS, ArcMap, and Maplex are trademarks, service marks, or registered trademarks of Esri in the United States, the European Community, or certain other jurisdictions. The layout, vector layer symbology and labeling rules were created according to USGS US Topo Map specifications for a 7.5-minute cell displayed at 1:24,000-scale. Vector layers are intended to be linked with the Topo Map Vector Data products which is available for separate download from TNM (http://viewer.nationalmap.gov/basic/). Web map services for orthoimagery, hill shade and wetlands were added to the template for immediate use in the template. Additional web map services are also available from TNM. Maps created from the template will be different from published US Topo Maps because data sources and vintage may vary from those used in the published maps. In addition, the intended use of the template is not to re-produce the published maps. The template is intended for users to create their own customized maps. An Esri file geodatabase containing ancillary data for customizing the template to a specific Area of Interest (AOI) is delivered along with the template. An MGRS shapefile was downloaded from NGA and converted to a feature class for inclusion in the file geodatabase. This feature class is used for automatically updating the U.S. National Grid and Grid Zone Designation information in the margin. The file geodatabase also contains a MapDetails table created by the NGTOC from the 7.5-minute Geographic Names Cell database. This table is to be used for customizing the template to the appropriate UTM zone, and setting the data frame size for the desired AOI. Also included in the delivery are instructions for customizing the template.</procdesc>
+        <procdate>2019</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>18N</utmzone>
+            <transmer>
+              <sfctrmer>0.9996</sfctrmer>
+              <longcm>-81</longcm>
+              <latprjo>0.0</latprjo>
+              <feast>500000</feast>
+              <fnorth>0.0</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>2</absres>
+            <ordres>2</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>This is a general-purpose design and layout quadrangle map based on the traditional USGS quadrangle cells. The domain is a standard 7.5-minute cell. The scale is 1:24,000.</eaover>
+      <eadetcit>National Geospatial Program US Topo Product Standard, 2011.</eadetcit>
+    </overview>
+  </eainfo>
+  <metainfo>
+    <metd>2019</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey, National Geospatial Technical Operations Center</cntorg>
+          <cntper>Not Provided</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1400 Independence Road</address>
+          <city>Rolla</city>
+          <state>MO</state>
+          <postal>65401</postal>
+        </cntaddr>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Box 25046 Denver Federal Center</address>
+          <city>Lakewood</city>
+          <state>CO</state>
+          <postal>80225</postal>
+        </cntaddr>
+        <cntvoice>1-888-ASK-USGS (1-888-275-8747)</cntvoice>
+        <cntemail>http://www.usgs.gov/ask/</cntemail>
+        <hours>Monday through Friday 8:00 AM to 4:00 PM</hours>
+        <cntinst>Metadata information can also be obtained through online services using The National Map Download Client, at http://viewer.nationalmap.gov/basic/ or EarthExplorer, at http://earthexplorer.usgs.gov or Ask USGS at http://www.usgs.gov/ask.</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>
