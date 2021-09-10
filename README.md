@@ -10,3 +10,7 @@
 #### 9/8/21 I managed to tie a number of sensor inputs to arcgis map locations. I currently have to manually import accelerometer and gps coordinates into the function. It currently turns raw accelerometer data into a tilt representation.
 
 #### I still need to figure out the compass heading and fine tune where the phone is in space relative to the map as it currently gets us in the ballpark with the gps coordinates.
+
+#### 9/9/21 I opted to play around with some facial recognition software I found on github. It thinks I am both younger and far more hispanic and asian than I am.
+
+#### https://github.com/serengil/deepface
