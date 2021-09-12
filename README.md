@@ -14,3 +14,5 @@
 #### 9/9/21 I opted to play around with some facial recognition software I found on github. It thinks I am both younger and far more hispanic and asian than I am.
 
 #### https://github.com/serengil/deepface
+
+#### 9/11/21 No work on Gardener per se. Worked on setup for DUI project.
